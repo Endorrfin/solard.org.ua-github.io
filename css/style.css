@@ -168,23 +168,26 @@ img {
   background-position: center;
 }
 
-.icon-tools::before {
-  background-image: url(../img//icons/features/icon-tools.png);
+.icon-Accounting-services::before {
+  background-image: url(../img/icons/features/icon-Accounting-services.png);
 }
-.icon-computer::before {
-  background-image: url(../img//icons/features/icon-computer.png);
+.icon-Lawyer-services::before {
+  background-image: url(../img/icons/features/icon-Lawyer-services.png);
 }
-.icon-bulb::before {
-  background-image: url(../img//icons/features/icon-bulb.png);
+.icon-Legal-services::before {
+  background-image: url(../img/icons/features/icon-Legal-services.png);
 }
-.icon-atom::before {
-  background-image: url(../img//icons/features/icon-atom.png);
+.icon-IT-support::before {
+  background-image: url(../img/icons/features/icon-IT-support.png);
 }
-.icon-case::before {
-  background-image: url(../img//icons/features/icon-case.png);
+.icon-Notary::before {
+  background-image: url(../img/icons/features/icon-Notary.png);
 }
-.icon-download::before {
-  background-image: url(../img//icons/features/icon-download.png);
+.icon-HR::before {
+  background-image: url(../img/icons/features/icon-HR.png);
+}
+.icon-Audit::before {
+  background-image: url(../img/icons/features/icon-audit.png);
 }
 
 .features-list-item:nth-child(3n) {
