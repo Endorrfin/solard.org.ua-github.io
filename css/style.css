@@ -125,19 +125,26 @@ img {
       rgba(255, 255, 255, 0.3)
     ),
     linear-gradient(to top, rgba(0, 210, 255, 0.3), rgba(145, 140, 170, 0.3)),
-  url('/img/banner.png');
+  url('../img/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 
-.search {
+/* .search {
   position: absolute;
   right: 0;
   top: 90px;
-}
+} */
 
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
+}
 
 /* FEATURES SECTION */
 .features {
@@ -170,7 +177,7 @@ img {
   height: 60px;
   margin-bottom: 34px;
   /* background-color: teal; */
-  background-image: url('/img/icons/features/icon-Accounting-services.png');
+  background-image: url('../img/icons/features/icon-tools.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -296,7 +303,7 @@ img {
   display: block;
   width: 40px;
   height: 40px;
-  border: 1px solid rgb(232, 236, 238);
+  border: 1px solid #e8ecee;
   background-repeat: no-repeat;
   background-position: center;
   transition: background-color 0.2s linear;
@@ -304,7 +311,7 @@ img {
 
 .team-list-socials a:hover,
 .team-list-socials a:focus {
-  background-color: #4267b2;
+  background-color: #ffffff;
 }
 
 .icon-facebook {
@@ -366,7 +373,7 @@ img {
 
 /* CONTACT */
 * {box-sizing: border-box;}
-body {background: #F5E9D9;}
+body {background: rgb(255, 255, 255);}
 .postcard {
   max-width: 350px;
   margin: 50px auto 0;
@@ -405,7 +412,7 @@ body {background: #F5E9D9;}
   font-family: 'Playfair Display';
   font-size: 13px;
   letter-spacing: 1px;
-  color: #fffdee;
+  color: #ffffff;
   text-transform: uppercase;
   transition: 1s cubic-bezier(.165, .84, .44, 1);
 }
