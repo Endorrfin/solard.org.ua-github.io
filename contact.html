@@ -15,7 +15,7 @@
   <header class="page-header">
     <nav class="page-nav container">
       <a href="index.html" class="site-logo">
-        <img src="/img/logo.png" alt="site logo" height="24" width="189">
+          <img src="/img/logo/logo.png" alt="site logo" height="45" width="79">
       </a>
       <ul class="site-navigation">
           <li><a href="index.html" target="_self">Головна</a></li>
@@ -32,32 +32,63 @@
     <h1 class="visually-hidden">Activebox main page</h1>
 
     <!-- FEATURES SECTION  -->
-    <section class="contact">
+    <section class="form">
         <form action="formdata" method="post" name="form1">
             <div class="form-row">
-                <label for="name">Напишіть Ваше ім'я</label><input type="text" id="name" required>
-              </div>
-              <div class="form-row">
-                <label for="email">Напишіть Ваш e-mail</label><input type="email" id="email" required>
-              </div>
+              <label for="name">Напишіть Ваше ім'я</label><input type="text" id="name" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Напишіть Ваш e-mail</label><input type="email" id="email" required>
+            </div>
+            <div class="form-row">
+              <label for="phone">Напишіть Ваш номер телефону</label><input type="tel" id="tel" required>
+            </div>
 
-              <p><select name="list1">
-                  <option>Выберите из списка</option>
-                  <option>Бухгалтерські послуги</option>
-                  <option>Адвокатські послуги</option>
-                  <option>Юридичні послуги</option>
-                  <option>IT супровід</option>
-                  <option>Нотаріус</option>
-                  <option>HR</option>
-                  <option>Аудит</option>
-                 </select></p>
-                 <p><input type="submit" value="Отправить"></p>
+            <h3>Оберіть напрямок співпраці</h3>
+                <p><select name="Оберіть напрямок співпраці">
+                  <optgroup label="Бухгалтерські послуги">
+                    <option value="a1">Аутсорсинг бухгалтерського обліку юридичних осіб та ФОП</option>
+                    <option value="a2">Підготовка та здача усіх видів звітності</option>
+                    <option value="a3">Складання фінансової звітності по корпоративним правилам чи національним стандартам</option>
+                    <option value="a4">Розрахунок зарплати та кадровий облік</option>
+                    <option value="a5">Організація бухгалтерського обліку</option>
+                    <option value="a6">Ведення первинної документації</option>
+                    <option value="a7">Робота з контролюючими органами</option>
+                    <option value="a8">Оптимізація розходів та оподаткування</option>
+                    <option value="a9">Розрахунок податків</option>
+                    <option value="a10">Контроль здійснення взаєморозрахунків, сплати податків</option>
+                    <option value="a11">Набір платіжних доручень в систему клієнт-банк</option>
+                    <option value="a12">Звірка з контрагентами</option>
+                    <option value="a13">Інвентаризація</option>
+                    <option value="a14">Отримання довідок</option>
+                    <option value="a15">Трансформація бухгалтерської звітності у фінансову</option>
+                    <option value="a16">Ведення підприємницького обліку</option>
+                  </optgroup>
+                  <optgroup label="Адвокатські послуги">
+                    <option value="b1">Допомога у вирішенні господарських спорів</option>
+                    <option value="b2">Допомога у вирішенні кредитних спорів</option>
+                    <option value="b3">Допомога у вирішенні земельних спорів</option>
+                    <option value="b4">Допомога у вирішенні сімейних спорів</option>
+                    <option value="b2">Допомога у вирішенні спадкових спорів</option>
+                  </optgroup>
+                  <optgroup label="Адвокатські послуги">
+                    <option value="c1">Організація та повний юридичний супровід діяльності компанії</option>
+                    <option value="c1">Прийняття участі в оцінці тендерних пропозицій учасників при проведенні процедур закупівель</option>
+                  </optgroup>
+                  <optgroup label="Послуги IT">
+                    <option value="d1">Технічна підтримка робочих місць</option>
+                    <option value="d2">Усунення інцидентів в роботі операційної системи</option>
+                    <option value="d3">Забезпечення роботи пакетів офісних програм</option>
+                    <option value="d4">Віддалений сервер 1С</option>
+                    <option value="d5">Підтримка серверів</option>
+                    <option value="d6">Управління сайтами</option>
+                    <option value="d7">Безпека і резервне копіювання даних</option>
+                  </optgroup>
+                </select></p>
+               
 
-
-              <div class="form-row">
-                <label for="message">Напишіть Ваше повідомлення</label><textarea rows="5" id="message" required></textarea>
+                <label for="message">Коментарі</label><textarea rows="5" id="message" required></textarea>
               </div>
-              <div class="form-row">
                 <input type="submit" value="Отправить сообщение">
               </div>
 
