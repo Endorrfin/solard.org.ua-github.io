@@ -35,28 +35,34 @@
     <section class="contact">
         <form action="formdata" method="post" name="form1">
             <div class="form-row">
-                <label for="name">Ваше имя</label><input type="text" id="name" required>
+                <label for="name">Напишіть Ваше ім'я</label><input type="text" id="name" required>
               </div>
               <div class="form-row">
-                <label for="email">Ваш Email</label><input type="email" id="email" required>
+                <label for="email">Напишіть Ваш e-mail</label><input type="email" id="email" required>
               </div>
+
+              <p><select name="list1">
+                  <option>Выберите из списка</option>
+                  <option>Бухгалтерські послуги</option>
+                  <option>Адвокатські послуги</option>
+                  <option>Юридичні послуги</option>
+                  <option>IT супровід</option>
+                  <option>Нотаріус</option>
+                  <option>HR</option>
+                  <option>Аудит</option>
+                 </select></p>
+                 <p><input type="submit" value="Отправить"></p>
+
+
               <div class="form-row">
-                <label for="message">Ваше сообщение</label><textarea rows="5" id="message" required></textarea>
+                <label for="message">Напишіть Ваше повідомлення</label><textarea rows="5" id="message" required></textarea>
               </div>
               <div class="form-row">
                 <input type="submit" value="Отправить сообщение">
               </div>
 
               
-            <p><select name="list1">
-             <option>Выберите из списка</option>
-             <option>Option</option>
-             <option>Textarea</option>
-             <option>Label</option>
-             <option>Fieldset</option>
-             <option>Legend</option>
-            </select></p>
-            <p><input type="submit" value="Отправить"></p>
+            
            </form>
            
     </section>
