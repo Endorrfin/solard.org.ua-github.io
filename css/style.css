@@ -125,7 +125,7 @@ img {
       rgba(255, 255, 255, 0.3)
     ),
     linear-gradient(to top, rgba(0, 210, 255, 0.3), rgba(145, 140, 170, 0.3)),
-  url('../img/banner.png');
+  url('/img/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -170,7 +170,7 @@ img {
   height: 60px;
   margin-bottom: 34px;
   /* background-color: teal; */
-  background-image: url('../img/icons/features/icon-tools.png');
+  background-image: url('/img/icons/features/icon-Accounting-services.png');
   background-repeat: no-repeat;
   background-position: center;
 }
