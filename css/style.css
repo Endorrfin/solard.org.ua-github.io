@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 /* visually-hidden helper */
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
@@ -87,6 +89,9 @@ img {
   }
 }
 
+
+
+
 /* SITE NAVIGATION */
 .site-navigation {
   display: flex;
@@ -147,6 +152,10 @@ h2 {
   padding: 20px;
   color: #000;
 }
+
+
+
+
 
 /* FEATURES SECTION */
 .features {
@@ -230,6 +239,10 @@ h2 {
 }
 
 
+
+
+
+
 /* TEAM SECTION */
 .team {
   margin-bottom: 120px;
@@ -255,14 +268,6 @@ h2 {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.team-list-image {
-  filter: grayscale(1);
-  transition: filter 0.2s ease-out;
-}
-
-.team-list-item:hover .team-list-image {
-  filter: grayscale(0);
-}
 
 .team-list-name {
   margin-top: 26px;
@@ -328,6 +333,38 @@ h2 {
 .icon-twitter {
   background-image: url('../img/icons/social/icon-twitter.png');
 }
+
+
+/* .socials-image {
+  filter: grayscale(1);
+  transition: filter 0.2s ease-out;
+}
+
+.team-list-socials:hover, .background-image {
+  filter: grayscale(0);
+} */
+
+.socials-image {
+  opacity: 0;
+}
+
+
+.team-list-image {
+  filter: grayscale(1);
+  transition: filter 0.2s ease-out;
+}
+
+.team-list-item:hover .team-list-image {
+  filter: grayscale(0);
+}
+
+.team-list-item:hover .socials-image {
+  opacity: 0.4;
+}
+
+
+
+
 
 
 
