@@ -323,16 +323,16 @@ h2 {
 }
 
 .icon-facebook {
-  background-image: url('../img/icons/social/icon-facebook.png');
+  background-image: url(../img/icons/social/icon-facebook.png);
 }
 .icon-linkedin {
-  background-image: url('../img/icons/social/icon-linkedin.png');
+  background-image: url(../img/icons/social/icon-linkedin.png);
 }
 .icon-instagram {
-  background-image: url('../img/icons/social/icon-instagram.png');
+  background-image: url(../img/icons/social/icon-instagram.png);
 }
 .icon-twitter {
-  background-image: url('../img/icons/social/icon-twitter.png');
+  background-image: url(../img/icons/social/icon-twitter.png);
 }
 
 
