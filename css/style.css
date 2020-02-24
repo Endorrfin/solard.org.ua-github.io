@@ -363,13 +363,13 @@ h2 {
 /* FOOTER SECTION */
 .page-footer {
   color: #fff;
-  background-color: #8f8f8f;
+  background-color: #747272;
 }
 
 .page-footer .container {
   display: flex;
   justify-content: space-between;
-  min-height: 246px;
+  min-height: 146px;
   align-items: center;
 }
 
